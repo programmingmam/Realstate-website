@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+/* responsive -header--------------------------- */
+ 
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    margin-top: 14px;
+ 
+	 
+
+}
+.background-home{
+    width: 100%;
+    height: 855px;
+    background-image: url(imgbox/Background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    overflow: hidden;
+   
+}
+
+.logo h5{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+
+}
+.list-wrap {
+	display: flex;
+    margin-top: 8px;
+  
+
+}
+  .list-wrap li{
+	margin-right: 40px;
+	list-style: none;
+
+}
+
+ 
+ .list-wrap li a {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 25px;
+color: #FFFFFF;
+text-decoration: none;
+
+}
+.right-path h6{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 25px;
+color: #FFFFFF;
+text-decoration: none;
+
+}
+
+ 
+
+ 
+.responsive-btn{
+	 color: #fff;
+	 font-size: 22px;
+	 cursor: pointer;
+	 display: none;
+     border: none;
+}
+#click{
+	display: none;
+   
+}
+ 
+ 
+
+
+
+/* responsive bar*/
+ 
+
+@media (max-width: 950px){
+
+	 
+
+	.list-wrap{
+		position: fixed;
+		top: 40px;
+		left:-100%;
+		background: #111;
+		height: 100vh;
+		width: 100%;
+		display: block;
+		text-align: center;
+		transition: all 0.6s ease;
+
+	}
+
+
+
+.responsive-btn{
+		display: block;
+       margin-left:200px;
+	} 
+
+
+ #click:checked ~.list-wrap{
+	 	left: 0%;
+	 } 
+
+	  #click:checked ~ .responsive-btn i:before{
+	  	content: "\f00d";
+	  } 
+
+
+	.list-wrap li{
+		margin: 40px 0;
+
+
+
+	}
+	.container li a{
+		font-size: 22px;
+
+		 
+
+	}
+
+	.list-wrap li a:hover{
+	background:none;
+
+} 
+
+.right-path h6{
+ display: none;
+}
+
+  
+ 
+ 
+}
+
+
+/* responsive -header------------------end---------------------------- */
+
+
+/* home-design------------------------------- */
+.home-context{
+  text-align: center;
+  margin-top:120px;
+}
+.home-context h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 90px;
+ 
+    text-align: center;
+ 
+    color: #FFFFFF;
+    margin-top:80px;
+}
+.home-context .home-btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF6633;
+  box-shadow: 0px 60px 120px rgba(255, 102, 51, 0.3);
+border-radius: 15px;
+padding: 5px 15px;
+border: none;
+}
+
+.home-contact {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 100px;
+   margin-top:  50px;
+}
+.home-contact h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+    
+}
+ 
+.home-last-button .btn{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 30px;
+color: #6B7A99;
+background: #FFFFFF;
+box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.03);
+border-radius: 30px;
+padding: 15px 35px;
+margin-top: 260px;
+ 
+ 
+}
+
+/* home-design-------------------------------end */
+
+
+/* custom -all section font -style */
+.custom-font-section-head{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 20px;
+ 
+}
+.section-tittle{
+    text-align: center;
+}
+
+/* custom -all section font -style----------end */
+
+
+
+/* oue story ----------------------------------- */
+.OUR-STORY{
+    color: #29CC39;
+    background: rgba(41, 204, 57, 0.1);
+border-radius: 15px;
+padding: 5px 15px;
+text-align: center;
+
+
+   
+}
+
+   .section-title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 60px;
+text-align: center;
+color: #4D5E80;
+   }
+   .section-subtitle{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 30px;
+
+text-align: center;
+
+ 
+color: #7D8FB3;
+padding:0 40px 25px;
+   }
+
+
+   .last-story{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+     
+   }
+   .point{
+   background-color: #ebe6e6;
+    box-shadow: 0px 2px 5px rgba(12, 13, 14, 0.03);
+      border-radius: 10px;
+      padding: 10px 60px;
+      text-align: center;
+   }
+
+   .point h4{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 50px;
+ 
+
+
+color: #4D5E80;
+   }
+   .point p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    
+    color: #ADB8CC;
+   }
+ 
+/* oue story -----------------------------------end */
+
+
+
+/* service--------------------------------- */
+.service{
+    margin-bottom: 100px;
+}
+.OUR-service{
+    color: #3361FF;
+ 
+
+background: rgba(51, 97, 255, 0.1);
+border-radius: 15px;
+
+}
+.icon-frist p{
+ 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 25px;
+ 
+
+text-align: center;
+
+/* Gray Blue/Grey Blue 50 */
+
+color: #4D5E80;
+}
+
+ .icon-frist img{
+    width: 44px;
+    height: 40px;
+  
+  
+ 
+}
+.service-img{
+    
+ 
+width: 100px;
+height: 100px;
+
+background:  #bde2c1;;
+text-align: center;
+padding: 30px;
+border-radius: 50%;
+
+}
+.service-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+
+
+
+
+/* fitter gullary -----------------------start------------------------*/
+.filter-gullary{
+   
+    padding: 70px 0 50px 0;
+   
+   
+  }
+  
+  
+  .filter-gullary .filter-list{
+    display: flex;
+    margin-bottom: 10px;
+   justify-content: center;
+  }
+  .filter-gullary .filter-list .active{
+    color: #FF6633;
+  
+   
+  }
+  
+  .filter-list li{
+    list-style: none;
+    background: #eee;
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 13px;
+line-height: 25px;
+text-align: center;
+
+ 
+
+color: #7D8FB3;
+
+  }
+  
+  .product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+     
+     
+  }
+
+  .card{
+    background: #ffffff;
+ 
+
+box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.03);
+border-radius: 10px;
+  }
+ .card-details .card-tittle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 30px;
+    color: #6B7A99;
+     
+  }
+ .card-details p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+   
+    color: #ADB8CC;
+    padding: 0px 0px 0px 20px;
+  }
+  
+  
+    
+    
+   
+   
+   
+  
+  /* fitter gullary-end---------------------------------------- */
+  
+
+  
+
+/* service---------------------------------end */
+ 
+
+.qullaey img{
+    width: 255px;
+  height: 255px;
+
+border-radius: 5px 0px 0px 0px;
+padding: 30px;
+}
