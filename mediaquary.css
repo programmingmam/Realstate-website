@@ -70,6 +70,68 @@
           
            
           }
+          .qullaey img{
+            width:100%;
+          height: 100%;
+        margin-top:8px;
+       
+        }
+        .image-story h5{
+      font-size: 20px;
+      font-weight: 600;
+      padding: 0;
+        }
+        .clint-name h5{
+  
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 30px;
+           
+            
+            color: #6B7A99;
+            
+          }
+
+        .product-card {
+            width: 100%;
+            height: 100%;
+       
+           
+        
+         padding: 10px;
+         
+         }
+         .slider-buttons {
+            position: absolute;
+           right: 10px;
+           top: -15px;
+           
+           
+            transform: translateX(-50%);
+           
+           
+          }
+          .from--group label{
+          
+            font-weight:400;
+            
+            
+          
+          }
+          .contact-button .btn{
+           
+            padding: 10px 20px;
+        
+            
+             
+          }
+          .privacy-bottom{
+            display: flex;
+            justify-content: space-around;
+            padding: 0 10px;
+          }
     }
 
  
